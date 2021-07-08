@@ -1,0 +1,16 @@
+State. 
+    Basic structure to point out the state of the tags are the following. 
+    tags:State{
+        blabla
+    }
+    there are 5 states that we are going to talk about. 
+    1. active
+    actve tells which the follwing buttons or inputs are clicked. 
+    2. hover 
+    hover is the state which the mouse is on the top of the tags. But not clicked.
+    3. focus
+    focus is when the input are clicked and ready to be written. 
+    4. visited
+    Only for the link, who are already visited.
+    5. focus-within
+    State where the childeren is in focus state. 

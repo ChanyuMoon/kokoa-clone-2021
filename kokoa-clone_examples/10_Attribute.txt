@@ -1,0 +1,9 @@
+1. Attribute selectors. 
+    1. tagname[properties="something"]{
+        blabla
+    }
+        points a tag which satisfies the following properties = "something"
+    2. tagname[properties~="something"]{
+        blabla
+    }
+        points a tag which satisfies the following, properties has the following words inside. 

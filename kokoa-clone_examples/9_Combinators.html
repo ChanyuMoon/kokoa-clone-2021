@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        color: tomato;
+        background-color: yellowgreen;
+        padding: 20px;
+        border-radius: 20px;
+      }
+      p span {
+        color: teal;
+      }
+      div > span {
+        text-decoration: underline;
+      }
+      p + span {
+        color: violet;
+      }
+      P ~ address {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi e
+        sequi ipsam odio dolorem. <span>inside</span>
+      </p>
+      <span>Hello next</span>
+      <address>Bunporo 113</address>
+    </div>
+  </body>
+</html>

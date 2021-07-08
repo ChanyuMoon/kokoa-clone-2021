@@ -1,0 +1,18 @@
+Q : How to put block parallel. 
+    1. display: inline-block;
+        This SUCKS, cus it changes by the which moniter you look. 
+    2. flexbox
+        display: flex;
+        1. You talk to parents when you want to move children. 
+        2. main axis
+            justify-content asigns on the main axis
+        3. cross axis
+            align-items asigns on the cross axis.
+            
+        And for default main is horizontal(default) and cross axis is vertical(default). 
+        + vh(viewpoint hight) i.e) 70vh : uses 70% of the height of the screen. 
+            1. flex-direction: column ; --> this changes the main axis as column(vertical) 
+                and the cross axis is axis perpandicular to main axis. 
+            2. flex-wrap
+                we can select the property of how to wrap. 
+                

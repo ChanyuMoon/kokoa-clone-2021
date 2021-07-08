@@ -1,0 +1,4 @@
+1. position: fixed;
+    Yoo can fix the tags by using position.
+    And by giving values on top, bottom, right, left you can move the boxes on the diffent layer. 
+2. position: static;

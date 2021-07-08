@@ -1,0 +1,58 @@
+1. Block and Inline
+    Block(= Boxes)
+        e.g) <main><main/> <div><div/> 
+    properties they have
+        1. they don't let other thing to come next to them.
+
+    Inline
+        e.g) <a><a/> <span><span/> <img/>
+    properties they have
+        1. The other inlines can come next.
+
+    * Remember what is inline. *
+
+2. Change Block and Inline in to each other(by using properties "display")
+    BLock and Inline has defalt properties as "block" and "inline"
+    we can chage by giving different value. 
+
+    When we put property = "inline" in to things that use to be block, it looses width and hight. 
+    * Because inline don't have does properties. *
+
+3. Three properties of Box
+    1. margin : margin is the area outside the border of the box. 
+        When to boxes has the same hight, browser thinks these two margin same. Which mean's it shows the larger margin on the screen 
+        even the margin values are differnt. This is called Collapsing margin.
+        * This is only happens at the top & bottom. 
+        i.e) 
+        <!DOCTYPE html>
+        <html lang="kr">
+        <head>
+            <style>
+            html{
+                background-color: tomato;
+            }
+            body{
+                background-color: violet;        
+                margin-top: 50px;
+                margin-left: 30px;
+                margin-right: 20px;
+                margin-bottom: 50px;
+            }
+            div {
+                height: 150px;
+                width: 150px;
+                background-color: whitesmoke;
+                margin-top: 0;
+            }      
+            </style>
+        </head>
+        <body>
+            <div></div>    
+        </html>
+        * In this code, the real looking margin-top of <div><div/> is 50px *
+
+        in the code, you can shorten to put a margin value by the following.
+        margin: (up&bottom) (right&left);
+        margin: (up) (right) (bottom) (left);
+
+        2. Padding : Area inside the border of the box  

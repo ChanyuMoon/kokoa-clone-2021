@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <style>
+      div {
+        width: 150px;
+        height: 150px;
+        background-color: wheat;
+        position: relative;
+      }
+      div:first-child {
+        background-color: tomato;
+      }
+      div:last-child {
+        background-color: teal;
+      }
+      span {
+        background-color: violet;
+      }
+      span:nth-child(2n + 1) {
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <span>Hello</span>
+    <span>Hello</span>
+    <span>Hello</span>
+    <span>Hello</span>
+    <span>Hello</span>
+    <span>Hello</span>
+  </body>
+</html>

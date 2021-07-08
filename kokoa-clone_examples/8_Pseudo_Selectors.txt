@@ -1,0 +1,6 @@
+1. Pseudo selectors
+    It helps to point the tag. It allows to follow the complex codtioned tags. 
+    --> tagname:someothercode{
+        blablabla
+    }
+    

@@ -1,0 +1,18 @@
+Q : What if we want to only select the tags inside the parent tags
+    1. We use combinators. In this way only condition is the fist tags should be upper then the next tags. 
+    --> (more higher tag) (higher tag) tagname{
+        blablabla
+    }
+    2. But if we only want to restrict the tags right under, we can write as the following. 
+    --> parent > tag{
+        blablabla
+    }
+    3. We can also choose the tag next to something
+    --> a + target{
+        blablabla
+    }
+    4. And in the case if we want to find the brother tag which is not diretly next, we use this quote. 
+    a ~ target{
+        blablabla
+    }
+    --> But this quote follows the Cascade. Which means it only finds brothers at the back of the standard(기준) tag. 

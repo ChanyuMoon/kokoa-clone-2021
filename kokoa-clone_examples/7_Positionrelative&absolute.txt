@@ -1,0 +1,4 @@
+1. position:relative;
+    We can move the boxes by giving the value to move from the very first position of a box. 
+2. position:absolut;
+    It finds the closist relative parent and set that tag as the standard tag and moves from it. 

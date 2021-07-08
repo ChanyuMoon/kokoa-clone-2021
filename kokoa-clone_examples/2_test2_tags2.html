@@ -1,0 +1,45 @@
+<!--Tells browser to know this is the html file, not a text-->
+<!DOCTYPE html>
+<!--Tells browser what language this website is mainly using.-->
+<html lang="kr">
+  <!-- configures the setting of the website itself.-->
+  <!-- they are in visiable in side the website!-->
+  <head>
+    <!--makes icon that showes on the bar of the page!-->
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="image/furioso.PNG"
+    />
+    <title>Home - My first website.</title>
+    <style>
+      h1 {
+        color: yellowgreen;
+        text-decoration: underline;
+        font-size: 35px;
+      }
+    </style>
+    <!--use utf-8 encording.-->
+    <meta charset="utf-8" />
+    <!--google finds this description and showes on the searched results.-->
+    <meta name="description" content="This is my website." />
+  </head>
+  <!-- main conteins are written in here.-->
+  <body>
+    <h1>Hello! welcome to my website</h1>
+    <a href="https://google.com" target="_blank"> go to google </a>
+    <img
+      src="http://file.instiz.net/data/file/20131220/c/0/1/c01e072a5f3a14801fb674dfe48ec0b5.jpg"
+    />
+    <form>
+      <label for="food">Peanut butter crunch</label>
+      <input id="food" type="checkbox" />
+      <input type="file" accept=".pdf" />
+      <input required placeholder="Name" type="text" />
+      <input required placeholder="Lastname" type="text" />
+      <input required placeholder="Username" type="text" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>

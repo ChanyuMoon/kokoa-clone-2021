@@ -1,0 +1,8 @@
+By media queries we can make a condition on the CSS
+It can basically know width of the screen and also if the screen is landscape(가로) or portrait(세로). 
+--> @media screen and (condition) {
+        blabla
+    }
+    @media print and (condition) {
+        blabla
+    }

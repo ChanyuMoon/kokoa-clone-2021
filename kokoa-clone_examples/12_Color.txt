@@ -1,0 +1,5 @@
+1. Colors 
+    For telling the colors there are 3 ways to do so. It is hexsademial, rgb, rgba expression.
+2. variable
+    The variabe name should stard with --, and spaces should be filled with -.
+    we can use this variable by saying var(variable name)

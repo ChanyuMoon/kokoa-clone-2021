@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <style>
+      input {
+        border: 1px solid blue;
+      }
+      input:required {
+        border-color: tomato;
+      }
+      input[placeholder~="name"] {
+        background-color: skyblue;
+      }
+      input[type="password"] {
+        background-color: thistle;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="first name" />
+      <input type="text" placeholder="last name" />
+      <input type="password" placeholder="password" required />
+    </form>
+  </body>
+</html>

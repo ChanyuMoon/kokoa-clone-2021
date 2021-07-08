@@ -1,0 +1,7 @@
+Transition. 
+    Trainsition is way to change the normal tag to State of tag. 
+    Which means it will make an animation of chages of tag to a state of tag.
+    We need to write the transition on the normal tag styles. Because if we write on the State of tag, the changes will accur only when the tags are on that state.
+    --> transition: (the property we want to change) (second of change) (speed of animation)
+    For more info. of speed of animation go https://matthewlein.com/tools/ceaser
+        In here you can customize by using things called cubic-beizer()

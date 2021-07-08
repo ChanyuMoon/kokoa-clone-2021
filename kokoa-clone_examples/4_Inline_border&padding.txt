@@ -1,0 +1,10 @@
+1. Magin, border and padding of Inline. 
+    In Inline, there are no height and width so the margin on the top and bottom arn't applied on the screen. 
+    * So if you want to make a magin on the top and bottom of the inline, you have to change it in to block by using inline property *
+
+2. Class 
+    Class is a thing made to point several tags in once. It is made because we want to point specific tags seperatly. 
+    When we use id, we have to name them differently. Eventhough we can optimize the code like # dlfdl, #ldfdl, #dldl{} 
+    but when we want to give a properties one by one at the same time we have to write them seperatly anyways. 
+    how to write : .classname
+        also you can give several classes at one time by writing .class = "class1 class2 class3"

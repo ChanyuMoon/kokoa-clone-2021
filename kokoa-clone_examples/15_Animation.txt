@@ -1,0 +1,8 @@
+By using animation, you can make a animation that is infinite. And also by using transform, we can make some cool animation. 
+So to define animation we write like this. 
+--> @keyframes (animation name){
+        0%{}
+        50%{}
+        100%{}
+    }
+    By this we can make a 3-step animation. By 2-step animation we can use, from{} to{}
